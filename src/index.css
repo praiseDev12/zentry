@@ -10,6 +10,10 @@ body {
 	font-family: 'General Sans', sans-serif;
 }
 
+body::-webkit-scrollbar {
+	display: none; /* Chrome, Safari */
+}
+
 @layer base {
 	@font-face {
 		font-family: 'circular-web';
